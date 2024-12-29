@@ -68,7 +68,15 @@ export function Selection() {
           fashions seasonality within the case-specific nature of sustainable
           urban miningon site in Høje Taastrup.
         </p>
-        <Button className="px-8">Download Catalogue</Button>
+        <Button className="px-8" asChild>
+          <a
+            href="/pdfs/Fall-Winter_Selection_2024.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Download Brochure
+          </a>
+        </Button>
       </div>
 
       <Carousel className="w-full">
